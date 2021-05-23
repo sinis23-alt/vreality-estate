@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="239.375" height="42.546" viewBox="0 0 239.375 42.546">
+  <g id="Logo" transform="translate(-6.953)">
+    <text id="VReality-Estate" transform="translate(67.328 33.274)" fill="#2eb1e5" font-size="24" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">V</tspan><tspan y="0" letter-spacing="-0.02em">R</tspan><tspan y="0">eality-Est</tspan><tspan y="0" letter-spacing="-0.02em">a</tspan><tspan y="0">te</tspan></text>
+    <path id="Trazado_14213" data-name="Trazado 14213" d="M268.915,199.24l-18.242,15.039a.423.423,0,0,1-.016.1.421.421,0,0,0-.016.1v15.226a2.06,2.06,0,0,0,2.031,2.031h12.182V219.545h8.121v12.184h12.184a2.062,2.062,0,0,0,2.031-2.034V214.469a.455.455,0,0,0-.032-.19Z" transform="translate(-236.386 -191.023)" fill="#2eb1e5"/>
+    <path id="Trazado_14214" data-name="Trazado 14214" d="M207.03,112.829l-6.948-5.774V94.111a.977.977,0,0,0-1.015-1.015h-6.09a.977.977,0,0,0-1.016,1.015V100.3l-7.741-6.473a3.935,3.935,0,0,0-4.822,0l-22.812,19a.917.917,0,0,0-.349.682,1.023,1.023,0,0,0,.222.746l1.967,2.348a1.083,1.083,0,0,0,.666.349,1.175,1.175,0,0,0,.762-.222l21.955-18.306,21.955,18.306a.976.976,0,0,0,.666.221h.1a1.083,1.083,0,0,0,.666-.349l1.967-2.347a1.029,1.029,0,0,0,.222-.746A.928.928,0,0,0,207.03,112.829Z" transform="translate(-149.28 -93)" fill="#2eb1e5"/>
+    <text id="V" transform="translate(15.665 39.546)" fill="#fff" font-size="16" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">V</tspan></text>
+    <text id="R" transform="translate(26.059 24.712)" fill="#fff" font-size="15" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">R</tspan></text>
+    <text id="E" transform="translate(37.838 39.546)" fill="#fff" font-size="16" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">E</tspan></text>
+  </g>
+</svg>
