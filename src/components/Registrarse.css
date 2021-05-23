@@ -104,9 +104,7 @@ input[type="checkbox"]{
 .o-botoncrearcuenta{
     margin-top: 2rem;
     padding: 0.5rem 7.8125rem 0.5rem 7.8125rem;
-    font-family:'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 0.75rem; 
+    font-family:'Poppins', sans-serif;    
     border-radius: 5px;
     border: none;
     outline: none;
