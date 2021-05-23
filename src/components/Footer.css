@@ -1,0 +1,66 @@
+.E-footercontainer{
+    background-color: #0a2732;
+    padding: 2rem 4rem;
+}
+
+.terminos p{
+    color: white;
+    font-size: 10px;
+    width: 597px;
+}
+
+
+
+.derechaterminos a{
+    color: white;
+    font-size: 12px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.terminos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.derechaterminos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.derechaterminos div{
+    margin-top: 44px;
+}
+
+.derechaterminos button{
+    padding: 0.5rem 0.75rem;
+    width: 116px;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.875rem; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2EB1E5 ;
+    color: white;
+}
+
+.redessociales{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.o-logo{
+    height: 29px;
+    width: auto;
+    color: white;
+}
+
+.o-social img {
+    width: 21px;
+    height: auto;
+    margin-left: 1rem;
+}
