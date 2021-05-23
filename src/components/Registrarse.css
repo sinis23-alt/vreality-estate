@@ -9,16 +9,13 @@
     display: flex;
 }
 
-#logoazul{
-    width: 8.3125rem;
-    height: 1.8125rem;
-}
 
 
 .o-logoandform{    
   /*  background-color: red;*/
-    margin: 3rem 0 0 8rem;
-    min-width: 45rem;    
+    margin: 5rem 0 0 15rem;
+    min-width: 45rem;   
+       
 }
 
 .o-registertext{
@@ -32,11 +29,10 @@
 }
 
 .o-text .o-crearcuentaempresa{
-    font-family:'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 0.875rem;
-    color: #2EB1E5;
-    text-decoration: none;
+    color: #2eb1e5;
+    font-weight: bold;
+    text-decoration-line: none;
+    margin-top: 1rem;
 }
 
 
@@ -59,14 +55,13 @@ form h4{
 .o-campo{
     width: 20.75rem;
     padding: 0.5rem;
-    margin-top: 0.25rem; 
+    margin-top: -0.25rem; 
     font-family:'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.875rem; 
     border-radius: 5px;
-    border-style: solid;
-    border-color:#F5F5F5;
-    background-color: #F5F5F5;
+    border: solid 1px #d1d6d8;
+    background-color: var(--white);
     outline: none;
 }
 
@@ -127,4 +122,17 @@ input[type="checkbox"]{
 .o-tenercuenta a{
     text-decoration: none;
     color: #2EB1E5;
+}
+
+.s-vinculo
+{
+    color: #2eb1e5;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.s-etiqueta
+{
+    font-size: 0.84rem;
+    
 }
