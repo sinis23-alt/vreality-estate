@@ -1,0 +1,91 @@
+.E-Header{
+    height: 250px;
+    width: auto;
+    background-image: url('../images/portada.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.E-Header h1, h4{
+    color: white;
+}
+
+.E-Header h1{
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.E-Header h4{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.o-buscador{
+    width: 37.4375rem;
+    height: 2.75rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15rem;
+    left: 30%;
+}
+.o-buscador i{
+    color: #5D5D5D;
+    padding-left: 1rem;
+}
+
+.o-buscador input{
+    flex: 1;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #5D5D5D;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.titulo-recomendaciones{
+    color: #5D5D5D;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.recomencaciones-seccion{
+    padding: 0 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.E-vermas{
+    padding: 0.5rem 7rem;
+    margin-right: 1.5rem;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.875rem; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2EB1E5 ;
+    color: white;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 135px;
+}
