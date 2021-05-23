@@ -1,0 +1,130 @@
+.o-imageregister{
+    background-image: url(../images/registerpic.png);
+    background-size: 100% 100vh;    
+    width: 36%;
+    height: 100vh;
+}
+
+.o-contenido{
+    display: flex;
+}
+
+#logoazul{
+    width: 8.3125rem;
+    height: 1.8125rem;
+}
+
+
+.o-logoandform{    
+  /*  background-color: red;*/
+    margin: 3rem 0 0 8rem;
+    min-width: 45rem;    
+}
+
+.o-registertext{
+    margin-top: 5.25rem;
+    color: #333333;
+}
+.o-text{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-text .o-crearcuentaempresa{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #2EB1E5;
+    text-decoration: none;
+}
+
+
+
+.o-formulario{
+    width: 45rem;
+   /* background-color: aquamarine;*/
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+form h4{
+    margin-top: 1rem;
+}
+
+.o-campo{
+    width: 20.75rem;
+    padding: 0.5rem;
+    margin-top: 0.25rem; 
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem; 
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#F5F5F5;
+    background-color: #F5F5F5;
+    outline: none;
+}
+
+.o-campo:focus{
+    border-color:#2EB1E5;
+}
+
+.o-camposderechos{
+    margin-left: 1rem;
+}
+
+.o-terminosycondiciones{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.o-terminosycondiciones label{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem; 
+}
+
+.o-terminosycondiciones label a{
+    text-decoration: none;
+    color: #2EB1E5;
+}
+
+input[type="checkbox"]{
+    width: 1.125rem;
+    height: 1.125rem;  
+    margin-right: 0.5rem;  
+}
+
+.o-crearcuenta{    
+    display: flex;
+    justify-content: center;
+}
+
+.o-botoncrearcuenta{
+    margin-top: 2rem;
+    padding: 0.5rem 7.8125rem 0.5rem 7.8125rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2EB1E5 ;
+    color: white; 
+}
+
+.o-tenercuenta{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.o-tenercuenta a{
+    text-decoration: none;
+    color: #2EB1E5;
+}
