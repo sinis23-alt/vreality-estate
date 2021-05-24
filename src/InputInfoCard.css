@@ -1,0 +1,10 @@
+.textBox{
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 2px solid #707070;
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+}

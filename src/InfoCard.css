@@ -1,0 +1,13 @@
+.InfoCard{
+    height: 25.5rem;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgb(128, 128, 128);
+    padding: 0rem 2rem 0rem 2rem;
+    
+}
+
+.contentCarac{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+.Carrousel{
+    display: flex; 
+    background-color: #EEEEEE;   
+    box-shadow: 0px 3px 6px rgb(128, 128, 128);
+    height: 4rem;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    align-items: center;
+}
