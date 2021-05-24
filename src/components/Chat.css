@@ -1,0 +1,30 @@
+.d-Cchat{
+    display: flex;
+    align-items: center; 
+    width: 350px;
+    height: 70px;
+    border-bottom: 1px solid #00000010;
+}
+
+.d-profile-pt{
+    border-radius: 50%;
+    height: 40px;
+    margin: 0px 10px 0px 30px;
+}
+
+.d-row{
+    display: flex;
+    align-items: center;
+}
+
+.d-column{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.d-text-Chat{
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+    text-align: left;
+}

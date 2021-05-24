@@ -1,0 +1,130 @@
+.d-contenedor{
+    background-color: #FBFEFF;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+}
+
+.d-tittle-bar{
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-tittle-bar img{
+    position: absolute;
+    left: 10%;
+}
+
+.d-Posts{
+    width: 76%;
+    background-color: white;
+    box-shadow: 0px 1px 2px #00000036;
+    display: flex;
+    padding: 0px 30px;
+}
+
+.d-Posts label{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 0px 7px 0px;
+}
+
+.d-buttons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-tipo{
+    position: relative;
+    right: 110px;
+    margin: 0px 0px 10px 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.d-columns{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.d-content-inpt{
+    width: 400px;
+}
+
+.d-btn{
+    display: flex;
+    width: 75px;
+    height: 70px;
+    border-radius: 5%;
+    background-color: white;
+    border: none;
+    padding: 5px 0px;
+    font-size: 12px;
+    box-shadow: 0px 2px 8px #00000023;
+    justify-content: space-evenly;
+}
+
+.d-column-inputs{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.d-column-inputs input{
+    height: 20px;
+    width: 100%;
+    border: 1px solid #D1D6D8;
+    border-radius: 5px;
+}
+
+.d-column-inputs select{
+    height: 25px;
+    width: 100%;
+    border: 1px solid #D1D6D8;
+    border-radius: 5px;
+}
+
+#d-area-text{
+    height: 60px;
+}
+
+.d-section{
+    padding-top: 30px;
+    text-align: left;
+}
+
+.d-section h1{
+    font-size: 10px;
+    font-weight: 500;  
+    padding-bottom: 10px;  
+}
+
+.d-columns-2{
+    display: flex;
+    flex-flow: column;
+}
+
+.d-btn-img{
+    background-color: #2EB1E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    border: none;
+    padding: 3px 0px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500; 
+    color: white;
+}
