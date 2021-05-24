@@ -1,0 +1,40 @@
+.d-contenedor{
+    background-color: #FBFEFF;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+}
+
+.d-tittle-bar{
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-tittle-bar img{
+    position: absolute;
+    left: 10%;
+}
+
+.d-messages{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 1px 2px #00000036;
+    height: 500px;
+    display: flex;
+}
+
+.d-chats{
+    border-right: 1px solid #00000010;
+}
+
+.d-center{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}

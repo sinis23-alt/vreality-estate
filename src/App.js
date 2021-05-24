@@ -1,12 +1,12 @@
 import './App.css';
-import Login from './components/Login'
+import Message from './components/Message'
 import ResContraseña from './components/ResContraseña';
 
 
 function App() {
   return (
     <div className="App">      
-      <Login></Login>
+      <Message></Message>
     </div>
   );
 }
