@@ -1,4 +1,4 @@
-import Ract from 'react'
+import React from 'react'
 import './Navbar.css'
 import logo from '../images/logo.svg';
 import favicon from '../images/favicon.svg'
@@ -6,7 +6,8 @@ import mensageicon from '../images/mensageicon.svg'
 import fotodeperfil from '../images/fotoperfil.png'
 
 const Navbar = ()=>(
-    <div className="E-nav-container">
+    <div>
+    <div className="e-navbar-container">
         <figure className = "logo">
              <img src={logo} alt="logo"></img>
         </figure>
@@ -25,6 +26,7 @@ const Navbar = ()=>(
             </div>
         </div>
     </div>
+</div>
 
 );
 

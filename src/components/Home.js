@@ -9,10 +9,11 @@ import foto1 from '../images/apartamento1.png'
 
 function Home(){
     return(
-
+        <div>
+            <Navbar></Navbar>
         <div className="e-home" >
             <div >
-                <Navbar></Navbar>
+                
                 <div className ="E-Header">
                     <h1>Bienvenido de nuevo, Jhon</h1>
                     <h4>¿En qué podemos ayudarte hoy?</h4> 
@@ -42,7 +43,8 @@ function Home(){
 
                 <Footer></Footer>
             </div>
-        </div>    
+        </div> 
+    </div>   
     );
 }
 export default Home;

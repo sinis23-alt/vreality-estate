@@ -12,7 +12,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 60rem;
+    width: 60%;
+    margin-left: -2.5rem;
     
 }
 
@@ -30,7 +31,7 @@
 
 .s-conimagen
 {
-    width:54rem; 
+    width:40%; 
     height: 100vh;    
     
 }
@@ -44,6 +45,8 @@
 .s-logo
 {   
    margin-bottom: 6rem;
+   height: 29px;
+   width: auto;
    
 }
 

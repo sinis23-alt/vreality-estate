@@ -11,8 +11,12 @@ import add from '../images/add_photo.svg'
 function Post() {
     return (
         <div>
-            <Navbar/>
+            <div className="p-navbar">
+                <Navbar></Navbar>
+            </div>
+            
             <div className="d-contenedor">
+            
                 <div className="d-tittle-bar">
                     <img src={back} alt="img"/>
                     <p>Publica un inmueble</p>
@@ -21,9 +25,9 @@ function Post() {
                     <div className="d-columns d-content-inpt">
                         <h1 className="d-tipo">Tipo</h1>
                         <div className="d-buttons">
-                            <button className="d-columns d-btn"><img src={home} alt="img"/>Casa</button>
-                            <button className="d-columns d-btn"><img src={aprt} alt="img"/>Apartamento</button>
-                            <button className="d-columns d-btn"><img src={fnca} alt="img"/>Finca</button>
+                            <button className="d-columns d-btn"><img className="d-img-icon" src={home} alt="img"/>Casa</button>
+                            <button className="d-columns d-btn"><img className="d-img-icon" src={aprt} alt="img"/>Apartamento</button>
+                            <button className="d-columns d-btn"><img className="d-img-icon" src={fnca} alt="img"/>Finca</button>
                         </div>
                         <div className="d-column-inputs">
                             <label for="">Título</label>
@@ -36,19 +40,26 @@ function Post() {
                             <input className="d-area-text" id="d-area-text"></input>
 
                             <label for="">Número de Habitaciones:</label>
-                            <select id=""></select>
+                            <input id=""></input>
                             
                             <label for="">Número de baños:</label>
-                            <select id=""></select>
+                            <input id=""></input>
                         </div>
                     </div>
                     <div className="d-section">
                         <div>
                             <h1>Selecciona la ubicación</h1>
                             <div className="d-columns-2">
-                                <iframe></iframe>
+                            <iframe id="inlineFrameExample"
+                                title="Inline Frame Example"
+                                width="100%"
+                                height="300"
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+                            </iframe>
                                 <button className="d-btn-img"><img src={add} alt="img"/>Subir imágenes</button>
                             </div>
+                            <button className="d-btn-pub">Publicar</button>
+
                         </div>                    
                     </div>
                 </div>
