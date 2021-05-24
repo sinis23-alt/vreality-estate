@@ -14,7 +14,7 @@ function App() {
           <Route path="/login" component={Login}/>
           <Route path="/home" component={Home}/>
           <Route path="/restaurarcontraseña" component={ResContraseña}/>
-          <Route path="/regristrarse" component={Registrarse}/>
+          <Route path="/registrarse" component={Registrarse}/>
         </Switch>
       </BrowserRouter>
 

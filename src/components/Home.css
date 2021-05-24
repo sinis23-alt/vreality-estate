@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+  
+
 .E-Header{
     height: 250px;
     width: auto;
@@ -34,9 +40,8 @@
     border-radius: 5px;
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 15rem;
-    left: 30%;
+    
+    
 }
 .o-buscador i{
     color: #5D5D5D;
@@ -66,10 +71,10 @@
 }
 
 .recomencaciones-seccion{
-    padding: 0 140px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0 20rem;
 }
 
 .E-vermas{

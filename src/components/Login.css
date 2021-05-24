@@ -49,19 +49,19 @@
 
 .s-eslogan
 {
-    margin-top: -0.6rem;
+    margin-top: 0.6rem;
     margin-bottom: 2rem;
 }
 
 .s-entrada
 {    
     width: 30rem;
-    height: 2rem;
+    height: 2.5rem;
     margin: 5px 0 16px;
     border-radius: 5px;
     border: solid 1px #d1d6d8;
     background-color: var(--white);
-    margin-top: -0.8rem;
+    margin-top: 0.8rem;
     font-size: 1rem;
 }
 
