@@ -1,0 +1,71 @@
+.e-navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem 4rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px rgba(0, 0, 0, 0);
+    
+}
+
+
+figure img {
+    width: 152.6px;
+    height: auto;
+}
+
+.E-publicarboton{
+    padding: 0.5rem 0.75rem;
+    margin-right: 1.5rem;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.875rem; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #2EB1E5 ;
+    color: white;
+}
+
+.mensagenumero{
+    font-size: 12px;
+    width: auto;
+    background-color:#2EB1E5 ;
+    color: white;
+    padding: 0 6px;
+    display: inline-block; 
+    border-radius: 100%;
+    position: absolute;
+    top: -5px;
+    left: 8px;
+}
+
+.nombreperfil{
+    font-size: 0.875rem; 
+    margin-left: 0.875rem;
+}
+
+.E-perfil{
+    display: flex;
+    align-items: center;
+}
+
+.E-fotoperfil{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+}
+
+.e-mensaje{
+    display: flex;
+    align-items: center;
+    margin-left: 0.875rem;
+    position: relative;
+}
+
+
+.E-derecha{
+    display: flex;
+    align-items: center;
+}

@@ -1,3 +1,7 @@
+*{
+  font-family: 'Poppins',sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -40,8 +44,9 @@
 .container1{
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: -20rem;
+  margin-bottom: 5rem;
 }
 
 .container2{
