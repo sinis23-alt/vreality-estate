@@ -1,5 +1,7 @@
 import './App.css';
 import Message from './components/Message'
+import Post from './components/Post'
+import Login from './components/Login'
 import ResContraseña from './components/ResContraseña';
 import Registrarse from './components/Registrarse';
 import Home from './components/Home';
@@ -15,6 +17,8 @@ function App() {
           <Route path="/home" component={Home}/>
           <Route path="/restaurarcontraseña" component={ResContraseña}/>
           <Route path="/registrarse" component={Registrarse}/>
+          <Route path="/chats" component={Message}/>
+          <Route path="/post" component={Post}/>
         </Switch>
       </BrowserRouter>
 
