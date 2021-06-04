@@ -94,3 +94,17 @@
     margin-right: auto;
     margin-bottom: 135px;
 }
+
+.s-tittle-bar{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.s-tittle-bar img{
+    position: absolute;
+    left: 12.6%;
+}

@@ -6,6 +6,7 @@ import ResContraseña from './components/ResContraseña';
 import Registrarse from './components/Registrarse';
 import Home from './components/Home';
 import {BrowserRouter,Switch ,Route} from 'react-router-dom';
+import Favorites from './components/Favorites';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">      
       <BrowserRouter>
         <Switch>
+        <Route path="/favorites" component={Favorites}/>
           <Route path="/login" component={Login}/>
           <Route path="/home" component={Home}/>
           <Route path="/restaurarcontraseña" component={ResContraseña}/>
