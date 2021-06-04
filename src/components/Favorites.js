@@ -27,7 +27,7 @@ function Favorites(){
                     
                 </div>
 
-                <button className="E-vermas" type="button" name="ver mas">Ver más favoritos</button>
+                <button className="E-vermas" type="button" name="ver mas">Ver todos los favoritos</button>
         
     
 
