@@ -1,0 +1,25 @@
+.j-Caracteristic{
+    display: flex;
+    align-items: center;
+    height: 2.8rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.j-Caracteristic2{
+    margin-left: 0.3rem;
+}
+
+.j-text1{
+    margin-bottom: -1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.j-text2{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.j-IconInfoCard{
+    width: 2.8rem;
+}

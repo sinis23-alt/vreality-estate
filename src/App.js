@@ -7,6 +7,7 @@ import Registrarse from './components/Registrarse';
 import Home from './components/Home';
 import {BrowserRouter,Switch ,Route} from 'react-router-dom';
 import Favorites from './components/Favorites';
+import JProductSelected from './components/JProductSelected';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path="/registrarse" component={Registrarse}/>
           <Route path="/chats" component={Message}/>
           <Route path="/post" component={Post}/>
+          <Route path="/producto" component={JProductSelected}/>
+
         </Switch>
       </BrowserRouter>
 
