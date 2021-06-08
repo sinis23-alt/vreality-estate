@@ -23,7 +23,7 @@ function Login( ...props) {
             <input className="s-entrada" type="text" />
             <p className="s-etiqueta">Contraseña</p>
             <input className="s-entrada" type="password" />
-           <p> <Link to='/registrarse'><a  className="s-boton" >Iniciar sesión</a></Link></p>
+           <p> <Link to='/home'><a  className="s-boton" >Iniciar sesión</a></Link></p>
           </div>
           <div className="s-concampos">
 
