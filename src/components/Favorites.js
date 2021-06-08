@@ -16,7 +16,7 @@ export class Favorites extends Component {
         data: [],
     }
 
-    api = 'https://run.mocky.io/v3/2b3a062f-b8e8-4fe0-a916-5fe94c79e6e6'
+    api = 'https://api.mocklets.com/p68265/favorites'
 
     consultarDatos = () => {
         return new Promise ((resolve, reject) => {

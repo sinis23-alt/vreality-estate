@@ -12,7 +12,7 @@ export class Home extends Component{
         data: [],
     }
 
-    api = 'https://run.mocky.io/v3/0df0712b-8096-4240-81b2-68db300cc660'
+    api = 'https://api.mocklets.com/p68265/home'
 
     consultarDatos = () => {
         return new Promise ((resolve, reject) => {

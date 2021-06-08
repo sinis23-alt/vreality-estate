@@ -24,7 +24,7 @@ const Navbar = ()=>(
             
             <div className="E-perfil">
                 <p className="nombreperfil">Jhon Acevedo</p>
-                <img className="E-fotoperfil" src = {fotodeperfil} alt="foto de perfil"/>
+                <Link to="/"><img className="E-fotoperfil" src = {fotodeperfil} alt="foto de perfil"/></Link>
             </div>
         </div>
     </div>

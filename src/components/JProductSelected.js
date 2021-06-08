@@ -21,7 +21,7 @@ export class JProductSelected extends Component {
     data: [],
   }
 
-  api = 'https://run.mocky.io/v3/bd1a9d18-9d9f-4251-94af-194c12f58990'
+  api = 'https://api.mocklets.com/p68265/products'
 
   consultarDatos = () => {
       return new Promise ((resolve, reject) => {

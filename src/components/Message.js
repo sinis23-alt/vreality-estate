@@ -15,7 +15,7 @@ export class Message extends Component{
         data: [],
     }
 
-    api = 'https://run.mocky.io/v3/cdfbc4bd-feea-4932-983a-77ff282beb66'
+    api = 'https://api.mocklets.com/p68265/chats'
 
     consultarDatos = () => {
         return new Promise ((resolve, reject) => {
