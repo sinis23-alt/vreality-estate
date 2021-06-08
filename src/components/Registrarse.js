@@ -1,6 +1,7 @@
 import React from 'react'
 import './Registrarse.css'
 import logo from '../images/logo.svg';
+import { withRouter, Link} from "react-router-dom";
 
 function Registrarse() {
     return (
@@ -47,7 +48,7 @@ function Registrarse() {
                 <div className="o-crearcuenta">
                     <button className="o-botoncrearcuenta" type="button" name="crear cuenta">Crear cuenta</button>
                 </div>
-                <p className="o-tenercuenta">¿Ya tienes una cuenta? <a className="s-vinculo" href="#">Inicia sesión</a></p><a href="#">
+                <p className="o-tenercuenta">¿Ya tienes una cuenta? <Link to='/'><a className="s-vinculo" >Inicia sesión</a></Link></p><a href="#">
                 </a></div><a href="#">
                 </a></div><a href="#"></a>
             </div>

@@ -33,6 +33,7 @@ export class Home extends Component{
         this.consultarDatos()
             .then((data) => {
                 this.setState({data: data.map((a, indice) => ({ ...a, ids: indice + 1 }))})
+                console.log(this.state.data)
             }).catch((err) => {
                 console.log(err)
             })

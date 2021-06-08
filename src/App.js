@@ -16,13 +16,13 @@ function App() {
       <BrowserRouter>
         <Switch>
         <Route path="/favorites" component={Favorites}/>
-          <Route  exact path="/" component={Login}/>
-          <Route path="/home" component={Home}/>
-          <Route path="/restaurarcontraseña" component={ResContraseña}/>
-          <Route path="/registrarse" component={Registrarse}/>
-          <Route path="/chats" component={Message}/>
-          <Route path="/post" component={Post}/>
-          <Route path="/producto" component={JProductSelected}/>
+          <Route exact path="/" component={Login}/>
+          <Route exact path="/home" component={Home}/>
+          <Route exact path="/restaurarcontraseña" component={ResContraseña}/>
+          <Route exact path="/registrarse" component={Registrarse}/>
+          <Route exact path="/chats" component={Message}/>
+          <Route exact path="/post" component={Post}/>
+          <Route exact path="/producto" component={JProductSelected}/>
 
         </Switch>
       </BrowserRouter>

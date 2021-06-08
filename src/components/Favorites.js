@@ -43,6 +43,7 @@ export class Favorites extends Component {
 
     render()
     {
+        console.log(this.state.data[0])
         return(
             <div>
                 <Navbar></Navbar>
@@ -61,7 +62,7 @@ export class Favorites extends Component {
                                             key={item.idx} 
                                             image={item.foto} 
                                             titulo={item.nombre} 
-                                            precio={item.precio} 
+                                            precio={`$ ${item.precio} `} 
                                             area={`${item.area} m²`}
                                         />
                                     )

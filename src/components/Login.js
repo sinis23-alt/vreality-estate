@@ -2,8 +2,13 @@ import React from 'react'
 import './Login.css'
 import imglogin from '../images/login.png'
 import logo from '../images/logo.svg';
+import { withRouter, Link} from "react-router-dom";
 
-function Login() {
+function Login( ...props) {
+
+    //Para redireccionar páginas
+    const {history, location, match} = props;
+
     return (
         <div className="s-contenedor">
         <div className="s-conimagen">
@@ -18,12 +23,12 @@ function Login() {
             <input className="s-entrada" type="text" />
             <p className="s-etiqueta">Contraseña</p>
             <input className="s-entrada" type="password" />
-            <a href="#" className="s-boton">Iniciar sesión</a>
+           <p> <Link to='/registrarse'><a  className="s-boton" >Iniciar sesión</a></Link></p>
           </div>
           <div className="s-concampos">
 
           <div className="s-enlaces">
-            <p>¿Sin una cuenta? <a className="s-vinculo" href>Regístrate</a></p>
+            <p>¿Sin una cuenta? <Link to='/registrarse'><a className="s-vinculo">Regístrate</a></Link></p>
             <a href="#" className="s-vinculo">¿Olvidaste la contraseña?</a>
           </div>
          
@@ -33,4 +38,4 @@ function Login() {
     )
 }
 
-export default Login
+export default withRouter(Login);
