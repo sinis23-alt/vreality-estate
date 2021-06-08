@@ -19,6 +19,7 @@
 .j-Text{
     color: black;
     font-weight: 400;
+    margin-top:1rem ;
 }
 
 .j-button{
@@ -30,6 +31,7 @@
     text-align: center;
     color: white;
     font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;  
 }
 
 .j-Carrousel{
@@ -80,7 +82,7 @@
 }
 
 .j-ImgPrin{
-    height: 26.5rem;
+    height: 25.5rem;
 }
 
 .j-InfoCard{
@@ -110,10 +112,11 @@
 }
 
 .j-TextPrice{
-    margin: -1rem 0rem 1rem 0rem;
+    margin: 0.5rem 0rem 1rem 0rem;
     color: #144E65;
     font-size: 1.5rem;
     font-weight: 500;
+
 }
 
 .j-State{
@@ -157,4 +160,17 @@
     margin: 0rem;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+.j-tittle-bar img{
+    position: absolute;
+    left: 16.5%;
+}
+
+.j-tittle-bar{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }

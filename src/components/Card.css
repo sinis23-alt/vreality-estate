@@ -54,3 +54,8 @@
     top: 181px;
     left: 175px;
 }
+
+.card-content a:hover {
+    background-color: #2EB1E5;
+    color: white;
+  }

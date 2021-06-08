@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Switch>
         <Route path="/favorites" component={Favorites}/>
-          <Route path="/login" component={Login}/>
+          <Route  exact path="/" component={Login}/>
           <Route path="/home" component={Home}/>
           <Route path="/restaurarcontraseña" component={ResContraseña}/>
           <Route path="/registrarse" component={Registrarse}/>
