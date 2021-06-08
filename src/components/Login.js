@@ -6,9 +6,6 @@ import { withRouter, Link} from "react-router-dom";
 
 function Login( ...props) {
 
-    //Para redireccionar páginas
-    const {history, location, match} = props;
-
     return (
         <div className="s-contenedor">
         <div className="s-conimagen">

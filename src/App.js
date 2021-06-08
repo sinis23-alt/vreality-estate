@@ -23,7 +23,6 @@ function App() {
           <Route exact path="/chats" component={Message}/>
           <Route exact path="/post" component={Post}/>
           <Route exact path="/producto" component={JProductSelected}/>
-
         </Switch>
       </BrowserRouter>
 
