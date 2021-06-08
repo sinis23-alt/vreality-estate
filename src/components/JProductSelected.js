@@ -13,6 +13,7 @@ import back from '../images/arrow_back_black_24dp.svg';
 import axios from 'axios';
 import React, {Component} from 'react';
 import Favorites from './Favorites';
+import { Link } from 'react-router-dom';
 
 export class JProductSelected extends Component {
 
@@ -62,7 +63,7 @@ export class JProductSelected extends Component {
               return(
                 <div>
                   <div className="j-tittle-bar">
-                      <img src={back} alt="img"/>                   
+                  <Link to="/home"> <img src={back} alt="img"/> </Link>                 
                   </div>
                             
                   <div className="j-container3">

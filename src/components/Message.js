@@ -6,6 +6,7 @@ import Chat from './Chat.js';
 import back from '../images/arrow_back_black_24dp.svg'
 import msg from '../images/message.svg'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 export class Message extends Component{
@@ -45,10 +46,12 @@ export class Message extends Component{
 
         return (
             <div>
-                <Navbar/>
+                <div className="p-navbar">
+                     <Navbar></Navbar>
+                 </div>
                 <div className="d-contenedor">
                     <div className="d-tittle-bar">
-                        <img src={back} alt="img"/>
+                       <Link to="/home"> <img src={back} alt="img"/> </Link>
                         <p>Tus mensajes</p>
                     </div>
                     <div className="d-messages">

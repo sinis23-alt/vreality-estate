@@ -2,6 +2,8 @@ import React from 'react'
 import './Login.css'
 import imglogin from '../images/login.png'
 import logo from '../images/logo.svg';
+import {Link} from "react-router-dom";
+
 
 function ResContraseña() {
     return (
@@ -12,7 +14,7 @@ function ResContraseña() {
         <div className="s-concampos">
           <div className="s-datos">
             <img className="s-logo" src={logo} alt="Logo" />
-            <a className="s-vinculo" href>Volver a inicio de sesión</a>
+            <Link className="s-vinculo" to="/">Volver a inicio de sesión</Link>
             <h2>Restablece tu contraseña</h2>
             <p className="s-eslogan">Por favor digita tu nueva contraseña</p>
             <p className="s-etiqueta">Nueva contraseña</p>

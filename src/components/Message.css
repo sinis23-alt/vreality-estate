@@ -22,7 +22,7 @@
 
 .d-messages{
     width: 80%;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.14);
     background-color: var(--white);
     height: 500px;

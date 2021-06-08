@@ -7,6 +7,7 @@ import home from '../images/casa.svg'
 import aprt from '../images/apartamento.svg'
 import fnca from '../images/finca.svg'
 import add from '../images/add_photo.svg'
+import { Link } from 'react-router-dom';
 
 function Post() {
     return (
@@ -18,7 +19,7 @@ function Post() {
             <div className="d-contenedor">
             
                 <div className="d-tittle-bar">
-                    <img src={back} alt="img"/>
+                    <Link to="/home"> <img src={back} alt="img"/> </Link>
                     <p>Publica un inmueble</p>
                 </div>
                 <div className="d-Posts">

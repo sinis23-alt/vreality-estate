@@ -6,6 +6,7 @@ import Card from './Card'
 import foto1 from '../images/apartamento1.png'
 import back from '../images/arrow_back_black_24dp.svg'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 
@@ -50,7 +51,7 @@ export class Favorites extends Component {
             <div className="e-home" >
                 
                 <div className="s-tittle-bar">
-                        <img src={back} alt="img"/>
+                        <Link to="/home"> <img src={back} alt="img"/> </Link>
                         <p>Tus favoritos</p>
                     </div>
         

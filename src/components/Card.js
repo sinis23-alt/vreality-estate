@@ -1,5 +1,7 @@
 import Ract from 'react'
 import './Card.css'
+import {Link} from "react-router-dom";
+
 
 
 const Card = ({image,titulo,precio,area})=> (
@@ -12,7 +14,7 @@ const Card = ({image,titulo,precio,area})=> (
                 <h4 class ="o-apartamento">{titulo}</h4>
                 <h4 class="o-precio">{precio}</h4>
                 <h4 class="o-area">{area}</h4>
-                <a class="o-boton" href="#">Ver más</a>
+              <Link className="o-boton" to="/producto">Ver más</Link>  
             </div>
         </div>
     </div>
