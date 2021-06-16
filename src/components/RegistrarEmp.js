@@ -1,9 +1,9 @@
 import React from 'react'
 import './Registrarse.css'
 import logo from '../images/logo.svg';
-import { withRouter, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
-function Registrarse() {
+function RegistrarEmp() {
     return (
             <div>
             <div className="o-contenido">
@@ -13,7 +13,7 @@ function Registrarse() {
                 <h2 className="o-registertext">Regístrate</h2>
                 <div className="o-text">
                     <p className="o-mensaje">La casa de tu sueños te está esperando. :)</p>
-                    <Link to='/registraremp' className="o-crearcuentaempresa" href="#">Crea una cuenta de empresa</Link>
+                    <Link to='/registrarse' className="o-crearcuentaempresa" href="#">Crea una cuenta de persona</Link>
                 </div>
                 <form className="o-formulario" action="#">
                     <div className="o-camposizquierdos">
@@ -21,7 +21,7 @@ function Registrarse() {
                     <input type="text" className="o-campo" />
                     </div>
                     <div className="o-camposderechos">
-                    <p  className="s-etiqueta">Apellido</p>
+                    <p  className="s-etiqueta">NIT</p>
                     <input type="text" className="o-campo" />
                     </div>
                     <div className="o-camposizquierdos">
@@ -55,4 +55,4 @@ function Registrarse() {
     )
 }
 
-export default Registrarse
+export default RegistrarEmp
